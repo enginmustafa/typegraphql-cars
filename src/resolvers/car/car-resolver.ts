@@ -1,5 +1,5 @@
 import { Resolver, Query, Mutation, Arg, Authorized } from "type-graphql";
-import { Car, CarModel } from "../../entities/Car-entity";
+import { Car, CarModel } from "../../entities/car-entity";
 import { CarInput, EditCarInput } from "./car-arguments";
 
 @Resolver()

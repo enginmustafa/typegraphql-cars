@@ -3,7 +3,7 @@ import { prop as Prop, getModelForClass } from "@typegoose/typegoose"
 import { ObjectId } from "mongodb"
 import { Brand } from "./brand-entity";
 import { Fuel } from "./fuel-entity";
-import { Country } from "./Country-entity";
+import { Country } from "./country-entity";
 
 @ObjectType()
 export class Car {

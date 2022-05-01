@@ -1,5 +1,5 @@
 import { Resolver, Query, Mutation, Arg, Authorized } from "type-graphql";
-import { Country, CountryModel } from "../../entities/Country-entity";
+import { Country, CountryModel } from "../../entities/country-entity";
 import { BaseCountryInput, EditCountryInput } from "./country-arguments";
 
 @Resolver()
